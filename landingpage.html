@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+<h1>My Resume</h1>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card" style="width: 65%;">
+                <img src="astar.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Astar Benaim</h5>
+                    <p class="card-text">Third-year BSc computer science student
+                        Responsible, highly motivated, willing to invest, works well independently and in teams, quick learner and self-motivated, with a strong work ethic.
+                    </p>
+                </div>
+
+                <!-- Add tabs for different categories -->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="skills-tab" data-bs-toggle="tab" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="education-tab" data-bs-toggle="tab" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="projects-tab" data-bs-toggle="tab" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contantme-tab" data-bs-toggle="tab" href="#contantme">Contantme</a>
+                    </li>
+                    <!-- Add more tabs as needed -->
+                </ul>
+
+                <!-- Tab content -->
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="skills">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Java</li>
+                            <li class="list-group-item">Python</li>
+                            <li class="list-group-item">C#</li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                    <div class="tab-pane fade" id="education">
+                        <!-- Add content for Education tab -->
+                        <p>
+                            • BSc in computer science, third-year student - HIT Institute of Technology.<br>
+                            • 2015 - Course in computer systems training and implementation (IDF).<br>
+                            • 2003-2015 - High school diploma, academic track, Rishon LeZion Real Gymnasium.
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade" id="contantme">
+                        <!-- Add content for Containment tab -->
+                        <p>
+                            • <a href="mailto:astarb2696@gmail.com">astarb2696@gmail.com</a><br>
+                            • <span>0546193274</span>
+                        </p>
+                    </div>
+
+
+
+
+                    <div class="tab-pane fade" id="projects">
+                        <!-- Add content for projects tab -->
+                        <p>Projects links:</p>
+                        <a href="https://github.com/astarb26/FacebookApp" class="card-link">Facebook App link</a>
+                        <a href="https://github.com/astarb26/AnimalsProject" class="card-link">Animals Project link</a>
+                    </div>
+                    <!-- Add more tab panes as needed -->
+                </div>
+
+                <div class="card-body">
+                    <a href="https://github.com/astarb26" class="card-link" style="color: blueviolet">GitHub link</a>
+                    <a href="https://www.linkedin.com/feed/" class="card-link" style="color: blueviolet">linkedin link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
